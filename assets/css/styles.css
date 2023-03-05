@@ -1209,4 +1209,7 @@ header {
   .contact__inputs {
     grid-template-columns: repeat(2, 1fr);
   }
+  .form-group button {
+    border: none;
+  }
 }
