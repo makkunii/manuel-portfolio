@@ -1,7 +1,7 @@
 {
   "name": "makkunii - Portfolio",
   "short_name": "makkunii",
-  "start_url": "/manuel-Portfolio/",
+  "start_url": "/manuel-portfolio/",
   "display": "standalone",
   "background_color": "#fff",
   "theme_color": "#6E57E0",
