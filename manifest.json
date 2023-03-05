@@ -28,7 +28,7 @@
       "sizes": "192x192"
     },
     {
-      "src": "/assets/img/PwaImages/android/android-launchericon-512-512.png",
+      "src": "assets/img/PwaImages/android/android-launchericon-512-512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
