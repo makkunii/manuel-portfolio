@@ -306,7 +306,7 @@ header {
   transform: translate(-50%, -50%);
   color: #fff;
   font-weight: bold;
-  font-size: 20vh;
+  font-size: 11vh;
   opacity: 0.8;
 }
 .loader span {
