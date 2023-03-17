@@ -432,6 +432,7 @@ header {
 .button:hover {
   background-color: rgba(255, 255, 255, 0);
   border: 2px solid var(--first-color-alt);
+  color: var(--first-color-alt);
   
 }
 
