@@ -11,10 +11,11 @@
   --hue-color: 250;
   /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
   /* HSL color mode */
-  --first-color: hsl(var(--hue-color), 69%, 61%);
-  --first-color-second: hsl(var(--hue-color), 69%, 61%);
-  --first-color-alt: hsl(var(--hue-color), 57%, 53%);
-  --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
+  --trans: 0.388;
+  --first-color: #000000;
+  --first-color-second:rgb(0, 0, 0);
+  --first-color-alt:  var(--first-color);
+  --first-color-lighter: var(--first-color);
   --title-color: hsl(var(--hue-color), 8%, 15%);
   --text-color: hsl(var(--hue-color), 8%, 45%);
   --text-color-light: hsl(var(--hue-color), 8%, 65%);
@@ -53,6 +54,11 @@
   --z-modal: 100;
 }
 
+
+.back {
+  background-color: var(--first-color);
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%
+}
 /* Font size for large devices */
 
 @media screen and (min-width: 968px) {
@@ -349,6 +355,7 @@ header {
 
 .home__social-icon:hover {
   color: var(--first-color-alt);
+  opacity: 75%;
 }
 
 .home__blob {
@@ -419,10 +426,13 @@ header {
   padding: 1rem;
   border-radius: 0.5rem;
   font-weight: var(--font-medium);
+  border: 2px solid var(--first-color);
 }
 
 .button:hover {
-  background-color: var(--first-color-alt);
+  background-color: rgba(255, 255, 255, 0);
+  border: 2px solid var(--first-color-alt);
+  
 }
 
 .button__icon {
@@ -652,6 +662,7 @@ header {
 .services__button {
   cursor: pointer;
   font-size: var(--small-font-size);
+  padding:5px
 }
 
 .services__button:hover .button__icon {
@@ -919,6 +930,7 @@ header {
 }
 .scrollup:hover {
   background-color: var(--first-color-alt);
+
 }
 .scrollup__icon {
   font-size: 1.5rem;
