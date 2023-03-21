@@ -17,7 +17,6 @@
 
     <!--==================== UNICONS ====================-->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"/>
-
     <!-- ====================PWA================== -->
   
 
@@ -117,21 +116,21 @@
                 target="_blank"
                 class="home__social-icon"
               >
-                <i class="uil uil-linkedin-alt"></i>
+                <i class="uil uil-linkedin"></i>
               </a>
               <a
                 href="https://github.com/makkunii"
                 target="_blank"
                 class="home__social-icon"
               >
-                <i class="uil uil-github-alt"></i>
+                <i class="uil uil-github"></i>
               </a>
               <a
                 href="https://t.me/makkunii"
                 target="_blank"
                 class="home__social-icon"
               >
-                <i class="uil uil-telegram-alt"></i>
+                <i class="uil uil-telegram"></i>
               </a>
             </div>
 
@@ -139,7 +138,7 @@
               <image
                     class="back"
                     
-                    src="assets/img/hacker-profile.png"
+                    src="assets/img/guy-wearing-glasses.png"
                   ></image>
             </div>
 
@@ -175,7 +174,7 @@
       <span class="section__subtitle">My Introduction</span>
 
       <div class="about__container container grid">
-        <img src="assets/img/egg.jpg" alt="" class="about__image" />
+        <img src="assets/img/china-town.jpg" alt="" class="about__image" />
 
         <div class="about__data">
           <p class="about__description">
@@ -642,7 +641,7 @@ and from then I learned a lot, going up to college I learned C++/C# and other la
         <!--==================== SERVICE 2 ====================-->
         <div class="services__content">
           <div>
-            <i class="uil uil-arrow services__icon"></i>
+            <i class="uil uil-desktop services__icon"></i>
             <h3 class="services__title">Software<br />Development</h3>
           </div>
 
@@ -948,7 +947,6 @@ and from then I learned a lot, going up to college I learned C++/C# and other la
 
     <!--==================== MAIN JS ====================-->
     <script src="assets/js/main.js"></script>
-
     <!-- ===================== SHOW/HIDE LOADER ==================== -->
     <script>
       window.onload = function () {
@@ -967,13 +965,24 @@ and from then I learned a lot, going up to college I learned C++/C# and other la
       //   });
       // }
 
+      
+
   var r = document.querySelector(':root');
-  var hexArray = ['#f1c84f','#4fa3f1','#d2330b', '#059705' , '#922fe9']
+  var hexArray = [
+      "#e91f64",
+      "#9c28b0",
+      "#282bb0",
+      "#58acdc",
+      "#f1c84f",
+      "#61c689",
+      "#d2330b",
+      "#922fe9",]
   var randomColor = hexArray[Math.floor(Math.random() * hexArray.length)];
   // Set the value of variable --blue to another value (in this case "lightblue")
   r.style.setProperty('--first-color',randomColor);
 
     </script>
+
 
     
     </style>
